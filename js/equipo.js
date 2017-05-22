@@ -1,6 +1,4 @@
-var n=0;
-function back()
+var d = new Date("October 13, 2014 11:13:00")
 {
-	document.getElementById('main').innerHTML='mi primer funcion' +n 
-	n++
+	document.getElementById("demo").innerHTML = d;
 }
